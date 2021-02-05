@@ -1,0 +1,22 @@
+.redio1{
+    position:relative;
+}
+
+.redio-p{
+    position:absolute;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 42px;
+}
+.redio-p2{
+    position:absolute;
+    margin-left: 25px;
+    text-align: center;
+    margin-top: 42px;
+}
+.redio-p3{
+    position:absolute;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 42px;
+}

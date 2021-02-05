@@ -1,0 +1,27 @@
+
+.nav-p:hover{
+    color:white;
+    background:rgb(0, 219, 172) !important;
+}
+.nav-p{
+    text-align: center;
+    transition:.4s;
+    padding: 5px 15px;
+    margin-bottom: 0rem !important;
+    font-weight:bold;
+    
+}
+.nav-link:focus{
+    background:rgb(0, 219, 172) !important;
+    color:white !important;
+}
+.nav-link:active{
+    background:rgb(44, 255, 209) !important;
+    color:white !important;
+}
+.nav-link{
+    margin-left: 10px;
+    padding: 5px 15px;
+    transition:.4s;
+   
+}

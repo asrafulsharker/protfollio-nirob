@@ -2,29 +2,23 @@ import React from 'react'
 import {Navbar,Nav,NavDropdown,FormControl,Form,Button} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import Logo from '../images/logo.png';
+import './nav.css';
 
 function nav() {
     return (
-        <div >
-<Navbar bg="light" expand="lg">
-  <Navbar.Brand href="#home"><img src={Logo}/></Navbar.Brand>
+      <div style={{zIndex:"9999",background:"white"}} className="container">
+<Navbar  expand="lg">
+  <Navbar.Brand href="#home"><img style={{height:"40px"}} src={Logo}/></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#link">Link</Nav.Link>
-      <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
+    <Nav className="ml-auto">
+      <Nav.Link  href="#homt45rte"><p className="nav-p ">Home</p></Nav.Link>
+      <Nav.Link  href="#hh65ome"><p className="nav-p">About</p></Nav.Link>
+      <Nav.Link  href="#homye"><p className="nav-p">Services</p></Nav.Link>
+      <Nav.Link  href="#ho4rt4me"><p className="nav-p">Protfolio</p></Nav.Link>
+      <Nav.Link  href="#homtge"><p className="nav-p">Blog</p></Nav.Link>
+      <Nav.Link  href="#hot4rtgfme"><p className="nav-p">Contact Me</p></Nav.Link>
     </Nav>
-    <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-success">Search</Button>
-    </Form>
   </Navbar.Collapse>
 </Navbar>
         </div>

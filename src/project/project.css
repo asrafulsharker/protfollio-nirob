@@ -1,0 +1,34 @@
+.image-card {
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+}
+
+.image {
+  width: 100%;
+  height:100%;
+
+}
+.image:hover{
+  opacity: .8;
+
+}
+.form-control{
+  border: 2px solid rgb(96, 156, 206) !important
+}
+.container-protfollio {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+.p-btn:hover{
+    background:red !important;
+    color:black;
+}
+.p-btn{
+    color:black !important;
+}

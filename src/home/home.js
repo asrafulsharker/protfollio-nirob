@@ -2,14 +2,16 @@ import React from 'react'
 import Hero from '../hero/hero';
 import About from '../about/about';
 import Service from '../Services/service';
-function home() {
+import Skill from '../skill/skill';
+function Home() {
     return (
-        <div>
+        <>
             <Hero/>
             <About/>
             <Service/>
-        </div>
+            <Skill />
+        </>
     )
 }
 
-export default home
+export default Home;

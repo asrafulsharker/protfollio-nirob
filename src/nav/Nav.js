@@ -1,31 +1,29 @@
 import React from 'react'
-import {Navbar,Nav,NavDropdown} from 'react-bootstrap';
+import {Navbar,Nav,NavDropdown,FormControl,Form,Button} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
 function nav() {
     return (
-        <div>
-             <Navbar collapseOnSelect expand="lg"  variant="dark" className="navbar">
-  {/* <Navbar.Brand href="#home"> <Link to="/"> <img className="logo" src={logo}/></Link></Navbar.Brand> */}
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
+        <div >
+<Navbar bg="light" expand="lg">
+  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      {/* <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-      {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+      <Nav.Link href="#home">Home</Nav.Link>
+      <Nav.Link href="#link">Link</Nav.Link>
+      <NavDropdown title="Dropdown" id="basic-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown> */}
-    </Nav> 
-    <Nav>
-      <Nav.Link href=""><Link className="navLink" style={{color:"white"}} to="/">Home</Link></Nav.Link>
-      <Nav.Link href=""><Link className="navLink" style={{color:"white"}} to="/resume">Resume</Link></Nav.Link>
-      <Nav.Link href=""><Link className="navLink" style={{color:"white"}} to="/protfollio">Protfolio</Link></Nav.Link>
-      <Nav.Link href=""><Link className="navLink" style={{color:"white"}} to="/contact">Content</Link></Nav.Link>
+      </NavDropdown>
     </Nav>
+    <Form inline>
+      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+      <Button variant="outline-success">Search</Button>
+    </Form>
   </Navbar.Collapse>
 </Navbar>
         </div>

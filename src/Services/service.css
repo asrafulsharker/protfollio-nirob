@@ -1,0 +1,6 @@
+.s-div:hover{
+    -webkit-box-shadow: 6px 5px 18px -1px rgba(0,0,0,0.6); 
+box-shadow: 6px 5px 18px -1px rgba(0,0,0,0.6);
+transition: .4s;
+cursor: pointer;
+}

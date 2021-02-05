@@ -12,6 +12,9 @@ function service() {
     return (
         <div style={{background:"#f5f7f7",padding:"100px"}}>
             <div className="container">
+               <div className="col-md-12">
+                  <p className="m-auto" style={{height:"48px",width:"340px",borderBottom:"10px solid #c2fff5",fontSize:"36px",fontWeight:"bold",textAlign:"center"}}>My Private Services</p>
+               </div>
                 <div className="row">
                 <div style={{margin:"39px",background:"white",padding:"30px"}} className="col-md-3 s-div">
                    <img src={s1}/>

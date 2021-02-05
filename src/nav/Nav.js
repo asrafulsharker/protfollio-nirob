@@ -6,7 +6,9 @@ import './nav.css';
 
 function nav() {
     return (
-      <div style={{zIndex:"9999",background:"white"}} className="container">
+
+      <div style={{zIndex:"9999",position:"fixed",background:"white"}}  className="col-md-12">
+              <div className="container">
 <Navbar  expand="lg">
   <Navbar.Brand href="#home"><img style={{height:"40px"}} src={Logo}/></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,6 +24,7 @@ function nav() {
   </Navbar.Collapse>
 </Navbar>
         </div>
+      </div>
     )
 }
 

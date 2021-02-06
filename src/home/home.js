@@ -5,6 +5,7 @@ import Service from '../Services/service';
 import Skill from '../skill/skill';
 import Project from '../project/project';
 import Feedback from '../feedback/feedback';
+import Contact from '../contact/contact';
 function Home() {
     return (
         <>
@@ -14,6 +15,7 @@ function Home() {
             <Skill />
             <Project/>
             <Feedback/>
+            <Contact/>
         </>
     )
 }

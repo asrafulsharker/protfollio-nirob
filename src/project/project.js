@@ -17,8 +17,12 @@ const Project=()=> {
 	);
 
 	return (
+		<div style={{padding:"30px 0px"}}>
+			 <p className="m-auto" style={{height:"48px",color:"",marginTop:"px",width:"240px",borderBottom:"10px solid #2bfcda",fontSize:"36px",fontWeight:"bold",textAlign:"center"}}>Latest Project</p>
+		
        
-            		<div className="App resume contact" style={{padding:"80px 0px"}}>
+            		<div className="App resume contact" style={{padding:"50px 0px"}}>
+						
 			<div className="tags ">
 				<TagButton style={{backgroundColor:"red"}} name="all design" tagActive={tag === 'all design' ? true : false}  handleSetTag={setTag} /> 
 				<TagButton name="Ui/Ux Design" tagActive={tag === 'Ui/Ux Design' ? true : false} handleSetTag={setTag} /> 
@@ -35,6 +39,7 @@ const Project=()=> {
 					))}
 				</div>
 			</SRLWrapper>
+		</div>
 		</div>
 	);
 }

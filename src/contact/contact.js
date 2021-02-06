@@ -16,7 +16,6 @@ function contact() {
                             <div className="row">
                             <input className="col-md-6" type="text" style={{width:"80%",marginLeft:"20px",height:"50px"}} placeholder="Name"/>
                             <input className="col-md-6"  style={{width:"80%",height:"50px",marginLeft:"20px"}} type="text" placeholder="Name"/>
-                            
                             <input className="col-md-12"  style={{width:"500px",height:"50px",marginTop:"20px"}} type="text" placeholder="Name"/>
                             <button type="submit">Submit</button>
                             </div>

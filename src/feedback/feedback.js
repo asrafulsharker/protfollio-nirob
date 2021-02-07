@@ -4,11 +4,11 @@ import Background from '../images/background.jpg';
 import './feedback.css';
 function feedback() {
     return (
-        <div style={{padding:"80px"}}>
+        <div style={{padding:"80px",backgroundColor:"#d9faff"}}>
             <div className="container" >
             <p className="m-auto" style={{height:"48px",color:"",marginTop:"px",width:"270px",borderBottom:"10px solid #2bfcda",fontSize:"36px",fontWeight:"bold",textAlign:"center"}}>Client Feedback</p>
                 <div className="row" style={{paddingTop:"20px"}}>
-                <div className="col-md-5 f-box" style={{padding:"50px",border:"1px solid gray ",margin:"46px"}}>
+                <div className="col-md-5 f-box" style={{padding:"50px",border:"1px solid gray ",margin:"46px",background:"white"}}>
                     <img style={{marginBottom:"20px"}} src={comma}/>
                     <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. </p>
                     <div className="row" style={{marginTop:"30px"}}>
@@ -23,7 +23,7 @@ function feedback() {
                        </div>
                     </div>
                 </div>
-                <div className="col-md-5 f-box" style={{padding:"50px",border:"1px solid gray ",margin:"46px"}}>
+                <div className="col-md-5 f-box" style={{padding:"50px",border:"1px solid gray ",margin:"46px",background:"white"}}>
                     <img style={{marginBottom:"20px"}} src={comma}/>
                     <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. </p>
                     <div className="row" style={{marginTop:"30px"}}>

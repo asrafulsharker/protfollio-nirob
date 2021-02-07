@@ -7,6 +7,9 @@
 
 .progress {
 	background-color: #d8d8d8;
+	box-shadow: -4px 8px 20px -4px rgba(0,0,0,0.66);
+	-webkit-box-shadow: -4px 8px 20px -4px rgba(0,0,0,0.66);
+	-moz-box-shadow: -4px 8px 20px -4px rgba(0,0,0,0.66);
 	border-radius: 20px;
 	position: relative;
 	margin: 15px 0;
@@ -15,8 +18,10 @@
 }
 
 .progress-done {
-    background: linear-gradient(to left, #008f6e, #75fafa) !important;
-    box-shadow: 0 3px 3px -5px #377a7a, 0 2px 5px #75fafa !important;
+    background: linear-gradient(to left, #4fbae0, #813fd1) !important;
+	box-shadow: -4px 8px 20px 0px rgba(0,0,0,0.66);
+	-webkit-box-shadow: -4px 8px 20px 0px rgba(0,0,0,0.66);
+	-moz-box-shadow: -4px 8px 20px 0px rgba(0,0,0,0.66);
 	border-radius: 20px;
 	color: #fff;
 	display: flex;

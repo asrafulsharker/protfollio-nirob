@@ -23,27 +23,27 @@ function service() {
                 </div>
                 <div style={{margin:"39px",background:"white",padding:"30px"}} className="col-md-3 s-div">
                    <img src={s2}/>
-                   <p style={{fontSize:"20px",fontWeight:"bold",marginTop:"15px"}}>Graphic Design</p>
+                   <p style={{fontSize:"20px",fontWeight:"bold",marginTop:"15px"}}>Web Design</p>
                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                 </div>
                 <div style={{margin:"39px",background:"white",padding:"30px"}} className="col-md-3 s-div">
                    <img src={s3}/>
-                   <p style={{fontSize:"20px",fontWeight:"bold",marginTop:"15px"}}>Graphic Design</p>
+                   <p style={{fontSize:"20px",fontWeight:"bold",marginTop:"15px"}}>Web Development</p>
                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                 </div>
                 <div style={{margin:"39px",background:"white",padding:"30px"}} className="col-md-3 s-div">
                    <img src={s4}/>
-                   <p style={{fontSize:"20px",fontWeight:"bold",marginTop:"15px"}}>Graphic Design</p>
+                   <p style={{fontSize:"20px",fontWeight:"bold",marginTop:"15px"}}>Marketing</p>
                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                 </div>
                 <div style={{margin:"39px",background:"white",padding:"30px"}} className="col-md-3 s-div">
                    <img src={s5}/>
-                   <p style={{fontSize:"20px",fontWeight:"bold",marginTop:"15px"}}>Graphic Design</p>
+                   <p style={{fontSize:"20px",fontWeight:"bold",marginTop:"15px"}}>App Development</p>
                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                 </div>
                 <div style={{margin:"39px",background:"white",padding:"30px",cursor:"pointer"}} className="col-md-3 s-div">
                    <img src={s6}/>
-                   <p style={{fontSize:"20px",fontWeight:"bold",marginTop:"15px"}}>Graphic Design</p>
+                   <p style={{fontSize:"20px",fontWeight:"bold",marginTop:"15px"}}>Photography</p>
                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                 </div>
                 </div>

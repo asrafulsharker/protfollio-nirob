@@ -14,12 +14,12 @@ function nav() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link  href="#homt45rte"><p className="nav-p ">Home</p></Nav.Link>
-      <Nav.Link  href="#hh65ome"><p className="nav-p">About</p></Nav.Link>
-      <Nav.Link  href="#homye"><p className="nav-p">Services</p></Nav.Link>
-      <Nav.Link  href="#ho4rt4me"><p className="nav-p">Protfolio</p></Nav.Link>
-      <Nav.Link  href="#homtge"><p className="nav-p">Blog</p></Nav.Link>
-      <Nav.Link  href="#hot4rtgfme"><p className="nav-p">Contact Me</p></Nav.Link>
+    <Nav.Link  > <Link to="/" style={{color:"gray"}}><p className="nav-p">Home</p></Link></Nav.Link>
+    <Nav.Link  > <Link to="/about" style={{color:"gray"}}><p className="nav-p">About</p></Link></Nav.Link>
+    <Nav.Link  > <Link to="/services" style={{color:"gray"}}><p className="nav-p">Services</p></Link></Nav.Link>
+      <Nav.Link  > <Link to="/protfolio" style={{color:"gray"}}><p className="nav-p">Protfolio</p></Link></Nav.Link>
+      <Nav.Link  > <Link to="/blog" style={{color:"gray"}}><p className="nav-p">Blog</p></Link></Nav.Link>
+      <Nav.Link  > <Link to="/contact" style={{color:"gray"}}><p className="nav-p">Contact</p></Link></Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

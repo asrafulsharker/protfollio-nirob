@@ -4,41 +4,45 @@ import Send from '../images/send.png';
 import Google from '../images/google.png';
 import Facebook from '../images/facebook.png';
 import Twter from '../images/twter.png';
+import { Link } from 'react-router-dom';
 function footer() {
     return (
         <div style={{padding:"80px 200px 0px 200px",borderBottom:"70px solid #151515",background:"#d9faff"}}>
             
                 <div className="row">
                     <div className="col-md-3">
-                        {/* <img className="logo" src={logo}/> */}
+                        <p style={{fontSize:"20px",fontWeight:"bold"}}>About Asraful Sharker Nirob</p>
                         <p className="f-p1">We aim to provide best Academic and skill 
                         courses that helps learners, the teachers also 
                         can become an instructor in Pondith - Online 
                         Learners’ and can share their knowledges.</p>
                         <div className="row">
-                            <img style={{height:"32px",width:"32px",marginLeft:"10px"}} src={Google}/>
-                            <img style={{height:"32px",width:"32px",marginLeft:"10px"}} src={Facebook}/>
-                            <img style={{height:"32px",width:"32px",marginLeft:"10px"}} src={Twter}/>
+
+                            <a href="mailto:asrafulsharkernirob1376@gmail.com" target="_blank"><img style={{height:"32px",width:"32px",marginLeft:"10px"}} src={Google}></img></a>
+                            <a href="https://www.facebook.com/nirob.toxic/" target="_blank"><img style={{height:"32px",width:"32px",marginLeft:"10px"}} src={Facebook}/></a>
+                            <a href="https://twitter.com/sharker_nirob" target="_blank"><img style={{height:"32px",width:"32px",marginLeft:"10px"}} src={Twter}/></a>
+
                         </div>
                     </div>
                     <div className="col-md-2">
-                        <p className="f-p2">Quick Link</p>
-                        <p>Courses
+                        <p style={{fontSize:"20px",fontWeight:"bold"}} className="f-p2">Quick Link</p>
+                        <p>
+                            <Link to="/">Home</Link>
                         <br/>
                         <br/>
-                        Articles
+                       <Link to="about">About</Link> 
                         <br/>
                         <br/>
-                        Blogs
+                       <Link to="/"> Services</Link>
                         <br/>
                         <br/>
-                        Data
+                        <Link to="/protfolio">Protfolio</Link>
                         <br/>
                         <br/>
-                        Sessions</p>
+                       <Link to="/"> Contact  </Link> </p>
                         </div>
                         <div className="col-md-2">
-                        <p className="f-p2">About Me</p>
+                        <p style={{fontSize:"20px",fontWeight:"bold"}} className="f-p2">About Me</p>
                         <p>
                         Privacy & Policy
                         <br/>
@@ -53,7 +57,7 @@ function footer() {
                         </p>
                         </div>
                         <div className="col-md-2">
-                        <p className="f-p2"> Community</p>
+                        <p style={{fontSize:"20px",fontWeight:"bold"}} className="f-p2"> Community</p>
                         <p>
                         Refer a friend
                         <br/>
@@ -71,7 +75,7 @@ function footer() {
                         </p>
                         </div>
                     <div className="col-md-3 mr-auto" style={{textAlign:"right"}}>
-                        <p className="f-p2">NewsLetter</p>
+                        <p style={{fontSize:"20px",fontWeight:"bold"}} className="f-p2">NewsLetter</p>
                             <form >
                             <input style={{width:"70%",height:"50px"}} type="email" placeholder="Email Address"/>
                             <button style={{background:"rgb(0, 219, 172)",height:"50px",width:"20%",color:"white",border:"none",marginTop:"20px"}} type="submit"><img src={Send}/></button>

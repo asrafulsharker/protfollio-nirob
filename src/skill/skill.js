@@ -9,12 +9,12 @@ function Skill() {
 
                
                 <p className="m-auto" style={{height:"48px",color:"",width:"240px",borderBottom:"10px solid #2bfcda",fontSize:"36px",fontWeight:"bold",textAlign:"center"}}>Software Skill</p>
-                    <div className="row m-auto" style={{padding:"55px"}}>
+                    <div className="row m-auto" style={{padding:"55px 130px"}}>
                         <div className="col-md-6 ">
                         <p style={{color:""}}>Photoshop</p>
                         <Progress done="90"/>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 ml-auto">
                             <p style={{color:""}}>Illustrator</p>
                         <Progress done="70"/>
                         </div>
